@@ -222,10 +222,24 @@ body{
 
 /*"Listen and enjoy"*/
 .title{
+    
     font-size: 50px;
     text-align: center;
     font-weight: 700;
     text-shadow: 0 2px 5px #da8063;
+    background-color: transparent;
+    margin-left: 350px;
+    border-style: none;
+}
+
+.title, .title:active, .title:focus{
+  outline: none;
+}
+
+.title:hover {
+  color: #8660c5;
+  transition: 0.5s ease-out;
+  transition-delay: 0.7s ease-out;
 }
 /*"by 1ON3 & Jandarm"*/
 .description{
