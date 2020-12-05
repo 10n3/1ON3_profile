@@ -254,4 +254,19 @@ function openPlaylistMenu() {
         }
     }
 
+//animation our contacts
+    $(document).ready(function(){
+        $(".dropbtn").click(function(){
+          $("#myDropdown").slideToggle("slow");
+        });
+      });
+
+    
+    //animation listen and enjoy
+    $(document).ready(function(){
+        $("button").click(function(){
+          $(".title").css("color", "black").slideUp(2000).slideDown(2000);
+        });
+      });
+
         
